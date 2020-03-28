@@ -79,7 +79,7 @@ function placeOrder(cardNum){
     return "Sorry, we don't have a credit card on file for you."
   } else {
     cart = [];
-    
+
     // for(var i = 0; i < kart.length; i++) {
     //     cart.splice(i, 1);
     // }
