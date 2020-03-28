@@ -74,13 +74,15 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNum){
-  var kart = getCart()
+  // var kart = getCart()
   if(!cardNum){
     return "Sorry, we don't have a credit card on file for you."
   } else {
-    for(var i = 0; i < kart.length; i++) {
-        cart.splice(i, 1);
-    }
+    cart = [];
+    
+    // for(var i = 0; i < kart.length; i++) {
+    //     cart.splice(i, 1);
+    // }
     return `Your total cost is $${total()}, which will be charged to the card ${cardNum}.`
   }
 }
