@@ -49,11 +49,11 @@ function viewCart() {
 }
 
 function total() {
-  var kart = getCart()
+  var cart = getCart()
   var totalVal = 0;
 
-  for(var i = 0; i < kart.length; i++){
-    var foodItem = kart[i]
+  for(var i = 0; i < cart.length; i++){
+    var foodItem = cart[i]
     totalVal += foodItem.itemPrice
   }
 
