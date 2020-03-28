@@ -49,7 +49,7 @@ function viewCart() {
 }
 
 function total() {
-  var cart = getCart()
+  // var cart = getCart()
   var totalVal = 0;
 
   for(var i = 0; i < cart.length; i++){
