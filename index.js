@@ -53,8 +53,8 @@ function total() {
   var totalVal = 0;
 
   for(var i = 0; i < cart.length; i++){
-    var foodItem = cart[i]
-    totalVal += foodItem.itemPrice
+    // var foodItem = cart[i]
+    totalVal += cart[i].itemPrice
   }
 
   return totalVal;
